@@ -50,11 +50,9 @@
 
 <br>
 
-<div class="wow animated fadeIn" data-wow-delay=".15s">
+<div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
   <a href="{{ post_url }}" class="project card text-themed" {%- if post.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>
-    {%- if project_img -%}
     <img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}" />
-    {%- endif -%}
     <div class="card-body">
       <h5 class="card-title">
         {{ post.title }}
