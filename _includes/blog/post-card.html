@@ -63,6 +63,9 @@
         {% endfor %}
       </p>
       <p class="card-text">{{ post.description }}</p>
+      <div class="card-footer {{ text_style }}">
+      {{ post.date | date_to_long_string }}
+    </div>
     </div>
   </a>
 </div>
