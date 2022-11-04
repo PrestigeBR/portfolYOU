@@ -27,6 +27,16 @@
     left: 22px;
 }
 
+@media only screen and (min-width: 768px)
+#linkedin {
+    /* writing-mode: vertical-rl; */
+    /* transform: rotate(180deg); */
+    /* transform: scaleX(-1); */
+    position: fixed;
+    bottom: 120px;
+    left: 22px;
+}
+
 .github-footer {
   font-size: 10px;
   color: #6c757d;
